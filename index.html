@@ -101,8 +101,16 @@
               <li class="nav-item">
                 <a
                   class="nav-link link text-white text-primary display-4"
-                  href="index.html#progress1-d"
+                  href="index.html#tocenomic"
                   >Tokenomics</a
+                >
+              </li>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-white text-primary display-4"
+                  href="index.html#presell"
+                  >Presell</a
                 >
               </li>
               <li class="nav-item">
@@ -112,13 +120,6 @@
                   >The Game</a
                 >
               </li>
-              <!-- <li class="nav-item">
-                <a
-                  class="nav-link link text-white text-primary display-4"
-                  href="index.html#header3-1"
-                  >Application</a
-                >
-              </li> -->
               <li class="nav-item">
                 <a
                   class="nav-link link text-white text-primary display-4"
@@ -129,7 +130,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link link text-white text-primary display-4"
-                  href="index.html#header3-4"
+                  href="index.html#roadmap"
                   >Roadmap</a
                 >
               </li>
@@ -140,13 +141,6 @@
                   >How to</a
                 >
               </li>
-              <!-- <li class="nav-item">
-                <a
-                  class="nav-link link text-white text-primary display-4"
-                  href="index-2.html#features2-b"
-                  >Careers</a
-                >
-              </li> -->
             </ul>
             <div class="icons-menu">
               <a href="http://twitter.com/usgpiggybank"
@@ -218,22 +212,72 @@
                   "
                 ></span
                 >TELEGRAM</a
-              >
-              <a
-                class="btn btn-sm btn-white-outline display-4"
-                href="https://bscscan.com/token/0x0000000000000000000000000000000000000000"
-                >0x0000000000000000000000000000000000000000</a
-              >
+                >
+                            <!-- Button trigger modal -->
+                <a
+                  type="button"
+                  class="btn btn-sm btn-secondary display-4"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  Buy at PRE-SELL
+              </a>
+                <a
+                  class="btn btn-sm btn-white-outline display-4"
+                  href="https://bscscan.com/token/0x0000000000000000000000000000000000000000"
+                  >0x0000000000000000000000000000000000000000</a
+                >
+                
+              </div>
+            </div>
+  
+            <div class="card col-12 img-col col-md-12 col-lg-6">
+              &nbsp&nbsp<img src="assets/images/coin.png" alt="" />
             </div>
           </div>
-
-          <div class="card col-12 img-col col-md-12 col-lg-6">
-            &nbsp&nbsp<img src="assets/images/coin.png" alt="">
-
         </div>
-        </div>
-      </div>
-    </section>
+      </section>
+  
+                  <!-- Modal -->
+                  <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Modal title
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">...</div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Save changes
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
     <section
       class="
@@ -242,7 +286,7 @@
         solutionm4_progress-bars1
         cid-presell
       "
-      id="progress1-d"
+      id="presell"
     >
       <div
         class="mbr-overlay"
@@ -278,28 +322,24 @@
                 display-7
               "
             >
-            Очаквайте повече информация относно предварителното купуване скоро...
             </h3>
           </div>
         </div>
+
         <div class="row justify-content-center">
           <div class="card col-lg-3 p-3 align-center">
-            <!-- <div class="wrap">
-              <div
-                class="pie_progress progress1"
-                role="progressbar"
-                data-goal="6"
-              >
-                <p class="pie_progress__number mbr-fonts-style display-5">6%</p>
-              </div>
+             <div class="wrap">
+              
+                <p class="pie_progress__number mbr-fonts-style display-5">TIMELEFT:</p>
+              
             </div>
             <div class="mbr-crt-title pt-3">
               <h4
                 class="card-title py-2 mbr-semibold mbr-fonts-style display-5"
               >
-                BURN TOKENS
+              <p id="timeleft"></p>
               </h4>
-            </div> -->
+            </div>
             <div class="mbr-crt-text pt-2"></div>
           </div>
           <div class="card col-lg-3 p-3 align-center">
@@ -351,7 +391,7 @@
         solutionm4_progress-bars1
         cid-sMpCr1BMNW
       "
-      id="progress1-d"
+      id="tocenomic"
     >
       <div
         class="mbr-overlay"
@@ -477,10 +517,11 @@
                 display-7
               "
             >
-              Text here.......
+              
               &nbsp; &nbsp; - <strong>BUY, HOLD AND WIN</strong>.
               <br />
-              <br />Ако продадете по-рано от седмица, автоматично отпадате от GIVЕ AWAY играта.
+              <br />When market cap goes to 1mil dollars, we make givaway for $10,000<br>
+              for holders who buy more then $50 at first buy OMD.
             </p>
           </div>
         </div>
@@ -526,7 +567,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section> -->   
 
     <section
       class="header3 solutionm4_header3 cid-sLUCGYNbX1 mbr-parallax-background"
@@ -656,67 +697,15 @@
                 display-7
               "
             >
-              More about ONE MILLION DOLLAR TOKEN creator.<br /><br />" Every time you don't know what to do, help someone be more than you. " - AG
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-<!-- 
-    <section class="image3 cid-sMBDYlPlb7" id="image03-f">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-12">
-            <div class="row">
-              <div class="col-12 col-lg-12">
-                <div class="img-item mb-3">
-                  <img
-                    src="assets/images/screenshot-2021-10-22-at-22.08.26-1194x376.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <section
-      class="header3 solutionm4_header3 cid-sLUCFprNWN mbr-parallax-background"
-      id="header3-4"
-    >
-      <div
-        class="mbr-overlay"
-        style="opacity: 0.6; background-color: rgb(0, 0, 0)"
-      ></div>
-      <div class="container align-center">
-        <div class="row justify-content-center">
-          <div class="mbr-white col-md-12 col-lg-9">
-            <h1
-              class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1"
-            >
-              <strong>ROADMAP</strong>
-            </h1>
-            <p
-              class="
-                mbr-text
-                pb-4
-                mbr-white mbr-regular mbr-fonts-style
-                display-7
-              "
-            >
-              During the road to our game launch we will be listing on
-              CoinMarketCap, CoinGecko and listing in Gate.IO, HOTBIT, Crypto.Com and other 
-              crypto exchanges! Our aim is accelerate our
-              traction by targeting the shows most popular audiences!
+              More about ONE MILLION DOLLAR TOKEN creator.<br /><br />When I made one million dollars from SHIBA INU token, my dream is to make peoples
+              rich. "Every time you don't know what to do, help someone be more than you." - AG
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="extPricingTables cid-sMiLexNDz8" id="extPricingTables5-a">
+    <section class="extPricingTables cid-sMiLexNDz8" id="roadmap">
       <div
         class="mbr-overlay"
         style="opacity: 0.6; background-color: rgb(25, 25, 25)"
@@ -757,8 +746,7 @@
                   >
                 </li>
                 <li>
-                  Test, audit and deploy the smart contract with the
-                  <strong>automatic lottery function</strong>.
+                  Test, audit and deploy the smart contract.
                 </li>
                 <li>
                   <span class="items-text">
@@ -821,8 +809,7 @@
                 </li>
                 <li>
                   <span class="items-text">
-                    First influencer marketing campaign with Korean influencers
-                    across social media channels.</span
+                    Find famous influencer who make livestream with OMD GivaAway in youtube.</span
                   >
                 </li>
               </ul>
@@ -867,7 +854,7 @@
                 </li>
                 <li>
                   <span class="items-text"
-                    ><strong> Bithumb</strong> listing (One of Korea's most
+                    ><strong> Binance</strong> listing most
                     popular crypto exchanges).</span
                   >
                 </li>
@@ -913,7 +900,7 @@
               <ul class="list-group mbr-fonts-style mbr-lighter display-4">
                 <li>
                   <strong>Yield farming</strong> platform with a strong and
-                  sustained APY for USG holders.&nbsp;
+                  sustained APY for OMD holders.&nbsp;
                 </li>
                 <li>
                   Successfully reach 100k holders with a
@@ -1070,127 +1057,6 @@
         </div>
       </div>
     </section>
-<!-- 
-    <section
-      class="features2 solutionm4_features2 cid-sMoEdJzp9U"
-      id="features2-b"
-    >
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 col-md-12 md-pb">
-            <div class="title-wrapper align-left">
-              <div class="line"></div>
-              <h3
-                class="
-                  mbr-section-title mbr-white mbr-semibold
-                  pb-3
-                  mbr-fonts-style
-                  display-1
-                "
-              >
-                CAREERS
-              </h3>
-              <p
-                class="
-                  mbr-text
-                  pb-3
-                  mbr-white mbr-regular mbr-fonts-style
-                  display-4
-                "
-              >
-                We are always looking for talented individuals who share the
-                same vision as our team. Check below for our latest vacancies
-                and apply today.<br />
-              </p>
-            </div>
-            <div class="row">
-              <div class="card p-3 col-12 col-md-12 col-lg-12">
-                <div class="card-wrapper">
-                  <div class="icon-wrapper">
-                    <span
-                      class="mbr-iconfont mobi-mbri-features mobi-mbri"
-                    ></span>
-                  </div>
-                  <div class="card-box">
-                    <h5
-                      class="
-                        card-title
-                        mbr-regular
-                        pb-1
-                        mbr-black mbr-fonts-style
-                        display-5
-                      "
-                    >
-                      XAMARIN DEVELOPER
-                    </h5>
-                    <p
-                      class="
-                        card-text
-                        mbr-regular mbr-black mbr-fonts-style
-                        display-4
-                      "
-                    >
-                      Successful candidates will have coding experience with iOS
-                      (Cocoa, Swift, Objective C, C++, iPhone SDK), Android
-                      (Android Framework, Java, Kotlin), Mobile Web (HTML5,
-                      CSS3, JavaScript, RWD, mobile-first frontend frameworks),
-                      Xamarin, C#/.NET, etc.<br /><br />$55,000 - $65,000 pa |
-                      <a
-                        href="mailto:info@ultimatesquidgame.com"
-                        class="text-primary"
-                        >Apply Now</a
-                      >
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card p-3 col-12 col-md-6 col-lg-12">
-                <div class="card-wrapper">
-                  <div class="icon-wrapper">
-                    <span class="mbr-iconfont mobi-mbri-timer mobi-mbri"></span>
-                  </div>
-                  <div class="card-box">
-                    <h5
-                      class="
-                        card-title
-                        mbr-regular
-                        pb-1
-                        mbr-black mbr-fonts-style
-                        display-5
-                      "
-                    >
-                      PROJECT MANAGER
-                    </h5>
-                    <p
-                      class="
-                        card-text
-                        mbr-regular mbr-black mbr-fonts-style
-                        display-4
-                      "
-                    >
-                      We are looking for a talented Project Manager to manage
-                      the delivery of a high scale project against agreed
-                      quality expectations. Successful candidate with ideally
-                      accredited at Project Management discipline (practitioner
-                      level) (e.g. Certified Project Manager, APMP, Prince2,
-                      ISEB)<br /><br />$42,000 - $50,000 pa |
-                      <a
-                        href="mailto:info@ultimatesquidgame.com"
-                        class="text-primary"
-                        >Apply Now</a
-                      >
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12 md-pb">
-            <img src="assets/images/6993435-1106x737.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     <section
       class="clients1 solutionm4_clients1 cid-sMoXkq2QWU"
@@ -1299,7 +1165,7 @@
                 <div class="icons-wrap pb-2">
                   <p class="icon-title mbr-regular mbr-fonts-style display-4">
                     <a
-                      href="index-2.html#extPricingTables5-a"
+                      href="index-2.html#roadmap"
                       class="text-primary"
                       >Roadmap</a
                     >
@@ -1391,6 +1257,7 @@
     </section>
 
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
+    <script src="assets/timeleft/timeleft.js"></script>
     <script src="assets/popper/popper.min.js"></script>
     <script src="assets/tether/tether.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -1401,6 +1268,36 @@
     <script src="assets/parallax/jarallax.min.js"></script>
     <script src="assets/as-pie-progress/jquery-as-pie-progress.min.js"></script>
     <script src="assets/theme/js/script.js"></script>
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Nov 15, 2021 15:37:25").getTime();
+      
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+      
+        // Get today's date and time
+        var now = new Date().getTime();
+      
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+      
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+        // Display the result in the element with id="demo"
+        document.getElementById("timeleft").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("timeleft").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+      </script>
   </body>
 </html>
 
