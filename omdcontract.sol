@@ -1,1185 +1,1305 @@
-/**
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="generator" content="Mobirise v5.4.1, mobirise.com"> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/images/icon.png"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="One Million Dollar Token is a revolutionary mobile game developed off the back of the super popular Stickman series."
+    />
 
-	$*** Token
+    <title>ONE MILLION DOLLARS</title>
+    <link
+      rel="stylesheet"
+      href="assets/web/assets/mobirise-icons2/mobirise2.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/web/assets/mobirise-icons/mobirise-icons.css"
+    />
+    <link rel="stylesheet" href="assets/tether/tether.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap/css/bootstrap-reboot.min.css"
+    />
+    <link rel="stylesheet" href="assets/dropdown/css/style.css" />
+    <link rel="stylesheet" href="assets/as-pie-progress/css/progress.min.css" />
+    <link rel="stylesheet" href="assets/socicon/css/styles.css" />
+    <link rel="stylesheet" href="assets/theme/css/style.css" />
+    <link href="assets/fonts/style.css" rel="stylesheet" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&amp;display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&amp;display=swap"
+    /></noscript>
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&amp;display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&amp;display=swap"
+    /></noscript>
+    <link
+      rel="preload"
+      as="style"
+      href="assets/mobirise/css/mbr-additional.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/mobirise/css/mbr-additional.css"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <section class="menu cid-s1YLZwONfz" once="menu" id="menu1-1">
+      <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container">
+          <div class="navbar-brand"></div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav nav-dropdown navbar-nav-top-padding"
+              data-app-modern-menu="true"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-white text-primary display-4"
+                  href="index.html#tocenomic"
+                  >Tokenomics</a
+                >
+              </li>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-white text-primary display-4"
+                  href="index.html#presell"
+                  >Pre-sale</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-white text-primary display-4"
+                  href="index.html#thegame"
+                  >The Game</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-white text-primary display-4"
+                  href="index.html#community"
+                  >Community</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-white text-primary display-4"
+                  href="index.html#roadmap"
+                  >Roadmap</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-white text-primary display-4"
+                  href="index.html#team1-8"
+                  >How to</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-white text-primary display-4"
+                  href="millionaire.pdf"
+                  >Millionaire Paper</a
+                >
+              </li>
+            </ul>
+            <div class="icons-menu">
+              <a href="http://twitter.com/usgpiggybank"
+                ><span class="p-2 mbr-iconfont socicon-twitter socicon"></span
+              ></a>
 
-   Three token features:
-   2% fee auto add to the liquidity pool to locked forever when selling 
-   2% fee auto distribute to all holders
-   1% fee auto add to the Team Wallet
-   
-   100,000,000,000,000,000 total supply
-   500,000,000,000,000 *** max limit for per trade
+              <a href="https://t.me/stickmancrypto"
+                ><span class="p-2 mbr-iconfont socicon-telegram socicon"></span
+              ></a>
+            </div>
+            <div class="navbar-buttons mbr-section-btn">
+              <a
+                class="btn btn-sm btn-secondary display-4"
+                href="https://pancakeswap.finance/swap?inputCurrency=0x0000000000000000000000000000000000000000"
+                ><span
+                  class="mobi-mbri mobi-mbri-cash mbr-iconfont mbr-iconfont-btn"
+                ></span
+                >BUY $OMD</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
 
-*/
+    <section
+      class="header2 cid-s1YLYYtmhw mbr-parallax-background"
+      id="header2-0"
+    >
+      <div
+        class="mbr-overlay"
+        style="opacity: 0.7; background-color: rgb(0, 0, 0)"
+      ></div>
+      <div class="container align-left">
+        <div class="row justify-content-center">
+          <div class="mbr-white col-md-12 my-auto md-pb col-lg-6">
+            <h1
+              class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1"
+            >
+              <strong>one million dollarS</strong>
+            </h1>
+            <p
+              class="
+                mbr-text
+                pb-3
+                mbr-white mbr-light mbr-fonts-style
+                display-7
+              "
+            >
+              "The biggest crypto giveaway ever!"
+              <br />
+            </p>
+            <div class="mbr-section-btn">
+              <a
+                class="btn btn-sm btn-secondary display-4"
+                href="https://pancakeswap.finance/swap?inputCurrency=0x0000000000000000000000000000000000000000"
+                ><span
+                  class="mobi-mbri mobi-mbri-cash mbr-iconfont mbr-iconfont-btn"
+                ></span
+                >BUY $OMD</a
+              >
+              <a
+                class="btn btn-sm btn-primary-outline display-4"
+                href="https://t.me/stickmancrypto"
+                ><span
+                  class="
+                    mobi-mbri mobi-mbri-paper-plane
+                    mbr-iconfont mbr-iconfont-btn
+                  "
+                ></span
+                >TELEGRAM</a
+                >
+                            <!-- Button trigger modal -->
+                <a
+                  type="button"
+                  class="enableEthereumButton btn btn-sm btn-secondary display-4"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  Buy at PRE-SALE
+              </a>
+                <a
+                  class="btn btn-sm btn-white-outline display-4"
+                  href="https://bscscan.com/token/0x0000000000000000000000000000000000000000"
+                  >0x0000000000000000000000000000000000000000</a
+                >
+                
+              </div>
+            </div>
+  
+            <div class="card col-12 img-col col-md-12 col-lg-6">
+              &nbsp&nbsp<img src="assets/images/coin.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+  
+                  <!-- Modal -->
+                  <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          How to buy at pre-sale.
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
 
-pragma solidity ^0.8.4;
-// SPDX-License-Identifier: Unlicensed
-interface IERC20 {
+                        <center>
+                          <h1>
+                            How to buy OMD token at pre-sale?
+                          </h1>
+                          <br><br>
+                          <h3>
+                            * Presell price for 1-OMD Token = $0.000002 <br><br>
+                            1. Send BNB or BUSD to: contract. <br><br>
+                            2. When the pre-sale time expire:<br><br>
+                            2.1. All BNB and BUSD will be locked at liquidity provide to OMD token.<br><br>
+                            2.2. The equil of OMD tokens will be send to your wallet.<br>
+                            EXAMPLE: If you send $20 to pre-sale wallet, when token start pre-sale wallet
+                            will send you $20 / $0.000002 = 10,000,000 OMD Tokens
+                          </h3>
+                        </center>
 
-    function totalSupply() external view returns (uint256);
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" class="sendEthButton btn btn-secondary">BUY AT PRE-SALE</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-    /**
-     * @dev Returns the amount of tokens owned by `account`.
-     */
-    function balanceOf(address account) external view returns (uint256);
+    <section
+      class="
+        progress-bars1
+        circle-progress-section
+        solutionm4_progress-bars1
+        cid-presell
+      "
+      id="presell"
+    >
+      <div
+        class="mbr-overlay"
+        style="opacity: 0.3; background-color: rgb(0, 0, 0)"
+      ></div>
+      <svg class="svg-gradient">
+        <linearGradient>
+          <stop offset="0%" stop-color="#37d45c"></stop>
+          <stop offset="100%" stop-color="#cccccc"></stop>
+        </linearGradient>
+      </svg>
+      <div class="container mbr-white">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2
+              class="
+                mbr-section-title
+                pb-3
+                mbr-bold
+                align-center
+                mbr-fonts-style
+                display-1
+              "
+            >
+              PRESELL
+            </h2>
 
-    /**
-     * @dev Moves `amount` tokens from the caller's account to `recipient`.
-     *
-     * Returns a boolean value indicating whether the operation succeeded.
-     *
-     * Emits a {Transfer} event.
-     */
-    function transfer(address recipient, uint256 amount) external returns (bool);
+            <h3
+              class="
+                mbr-section-subtitle mbr-regular
+                pb-5
+                mbr-fonts-style
+                display-7
+              "
+            >
+            </h3>
+          </div>
+        </div>
 
-    /**
-     * @dev Returns the remaining number of tokens that `spender` will be
-     * allowed to spend on behalf of `owner` through {transferFrom}. This is
-     * zero by default.
-     *
-     * This value changes when {approve} or {transferFrom} are called.
-     */
-    function allowance(address owner, address spender) external view returns (uint256);
+        <div class="row justify-content-center">
+          <div class="card col-lg-3 p-3 align-center">
+             <div class="wrap">
+              
+                <p class="pie_progress__number mbr-fonts-style display-5">TIMELEFT:</p>
+              
+            </div>
+            <div class="mbr-crt-title pt-3">
+              <h4
+                class="card-title py-2 mbr-semibold mbr-fonts-style display-5"
+              >
+              <p id="timeleft"></p>
+              </h4>
+            </div>
+            <div class="mbr-crt-text pt-2"></div>
+          </div>
+          <div class="card col-lg-3 p-3 align-center">
+            <div class="wrap">
+              <div
+                class="pie_progress progress2"
+                role="progressbar"
+                data-goal="2"
+              >
+                <p class="pie_progress__number mbr-fonts-style display-5">2%</p>
+              </div>
+            </div>
+            <div class="mbr-crt-title pt-3">
+              <h4
+                class="card-title py-2 mbr-semibold mbr-fonts-style display-5"
+              >
+                PRESELL TOKENS
+              </h4>
+            </div>
+            <div class="mbr-crt-text pt-2"></div>
+          </div>
+          <div class="card col-lg-3 p-3 align-center">
+            <div class="wrap">
+              <div
+                class="pie_progress progress3"
+                role="progressbar"
+                data-goal="50"
+              >
+                <p class="pie_progress__number mbr-fonts-style display-5">3%</p>
+              </div>
+            </div>
+            <div class="mbr-crt-title pt-3">
+              <h4
+                class="card-title py-2 mbr-semibold mbr-fonts-style display-5"
+              >
+                COLLECTED FOR STARTUP
+              </h4>
+            </div>
+            <div class="mbr-crt-text pt-2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    /**
-     * @dev Sets `amount` as the allowance of `spender` over the caller's tokens.
-     *
-     * Returns a boolean value indicating whether the operation succeeded.
-     *
-     * IMPORTANT: Beware that changing an allowance with this method brings the risk
-     * that someone may use both the old and the new allowance by unfortunate
-     * transaction ordering. One possible solution to mitigate this race
-     * condition is to first reduce the spender's allowance to 0 and set the
-     * desired value afterwards:
-     * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729
-     *
-     * Emits an {Approval} event.
-     */
-    function approve(address spender, uint256 amount) external returns (bool);
+    <!-- <section
+      class="
+        progress-bars1
+        circle-progress-section
+        solutionm4_progress-bars1
+        cid-sMpCr1BMNW
+      "
+      id="tocenomic"
+    >
+      <div
+        class="mbr-overlay"
+        style="opacity: 0.3; background-color: rgb(0, 0, 0)"
+      ></div>
+      <svg class="svg-gradient">
+        <linearGradient>
+          <stop offset="0%" stop-color="#37d45c"></stop>
+          <stop offset="100%" stop-color="#cccccc"></stop>
+        </linearGradient>
+      </svg>
+      <div class="container mbr-white">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2
+              class="
+                mbr-section-title
+                pb-3
+                mbr-bold
+                align-center
+                mbr-fonts-style
+                display-1
+              "
+            >
+              TOKENOMICS
+            </h2>
 
-    /**
-     * @dev Moves `amount` tokens from `sender` to `recipient` using the
-     * allowance mechanism. `amount` is then deducted from the caller's
-     * allowance.
-     *
-     * Returns a boolean value indicating whether the operation succeeded.
-     *
-     * Emits a {Transfer} event.
-     */
-    function transferFrom(address sender, address recipient, uint256 amount) external returns (bool);
+            <h3
+              class="
+                mbr-section-subtitle mbr-regular
+                pb-5
+                mbr-fonts-style
+                display-7
+              "
+            >
+             <strong> </strong>
+            </h3>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card col-lg-3 p-3 align-center">
+            <div class="wrap">
+              <div
+                class="pie_progress progress1"
+                role="progressbar"
+                data-goal="6"
+              >
+                <p class="pie_progress__number mbr-fonts-style display-5">6%</p>
+              </div>
+            </div>
+            <div class="mbr-crt-title pt-3">
+              <h4
+                class="card-title py-2 mbr-semibold mbr-fonts-style display-5"
+              >
+                BURN TOKENS
+              </h4>
+            </div>
+            <div class="mbr-crt-text pt-2"></div>
+          </div>
+          <div class="card col-lg-3 p-3 align-center">
+            <div class="wrap">
+              <div
+                class="pie_progress progress2"
+                role="progressbar"
+                data-goal="2"
+              >
+                <p class="pie_progress__number mbr-fonts-style display-5">2%</p>
+              </div>
+            </div>
+            <div class="mbr-crt-title pt-3">
+              <h4
+                class="card-title py-2 mbr-semibold mbr-fonts-style display-5"
+              >
+                REWARDS TO HOLDERS
+              </h4>
+            </div>
+            <div class="mbr-crt-text pt-2"></div>
+          </div>
+          <div class="card col-lg-3 p-3 align-center">
+            <div class="wrap">
+              <div
+                class="pie_progress progress3"
+                role="progressbar"
+                data-goal="3"
+              >
+                <p class="pie_progress__number mbr-fonts-style display-5">3%</p>
+              </div>
+            </div>
+            <div class="mbr-crt-title pt-3">
+              <h4
+                class="card-title py-2 mbr-semibold mbr-fonts-style display-5"
+              >
+                LIQUIDITY PROVIDE
+              </h4>
+            </div>
+            <div class="mbr-crt-text pt-2"></div>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
-    /**
-     * @dev Emitted when `value` tokens are moved from one account (`from`) to
-     * another (`to`).
-     *
-     * Note that `value` may be zero.
-     */
-    event Transfer(address indexed from, address indexed to, uint256 value);
+    <section
+      class="header3 solutionm4_header3 cid-sLUC5VVsUJ mbr-parallax-background"
+      id="thegame"
+    >
+      <div
+        class="mbr-overlay"
+        style="opacity: 0.6; background-color: rgb(0, 0, 0)"
+      ></div>
+      <div class="container align-center">
+        <div class="row justify-content-center">
+          <div class="mbr-white col-md-12 col-lg-9">
+            <h1
+              class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1"
+            >
+              <strong>THE FIRST GAME</strong>
+            </h1>
+            <p
+              class="
+                mbr-text
+                pb-4
+                mbr-white mbr-regular mbr-fonts-style
+                display-7
+              "
+            >
+              
+              &nbsp; &nbsp; - <strong>BUY, HOLD AND WIN</strong>.
+              
+              <br/>The game starts when the market capitalization exceeds $1 million.</br>
+              All players holding OMT equivalent to 100$ or more USD will receive a chance to participate in the One Million Token lottery with a prize pool of 10 000$ dollars.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    /**
-     * @dev Emitted when the allowance of a `spender` for an `owner` is set by
-     * a call to {approve}. `value` is the new allowance.
-     */
-    event Approval(address indexed owner, address indexed spender, uint256 value);
-}
+    <!-- <section
+      class="header3 solutionm4_header3 cid-sLUBiCy2MK mbr-parallax-background"
+      id="header3-1"
+    >
+      <div
+        class="mbr-overlay"
+        style="opacity: 0.6; background-color: rgb(0, 0, 0)"
+      ></div>
+      <div class="container align-center">
+        <div class="row justify-content-center">
+          <div class="mbr-white col-md-12 col-lg-9">
+            <h1
+              class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1"
+            >
+              <strong>APPLICATION</strong>
+            </h1>
+            <p
+              class="
+                mbr-text
+                pb-4
+                mbr-white mbr-regular mbr-fonts-style
+                display-7
+              "
+            >
+              With the success of the initial launch game we are focused on
+              bringing a full gamification experience to our community. We are
+              developing the worlds first STICKMAN TOKEN inspired game using
+              blockchain technology.
+            </p>
+            <div class="mbr-section-btn">
+              <a
+                class="btn btn-sm btn-primary display-4"
+                href="https://mobiri.se/"
+                >COMING SOON...</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->   
 
+    <section
+      class="header3 solutionm4_header3 cid-sLUCGYNbX1 mbr-parallax-background"
+      id="header3-5"
+    >
+      <div
+        class="mbr-overlay"
+        style="opacity: 0.7; background-color: rgb(0, 0, 0)"
+      ></div>
+      <div class="container align-center">
+        <div class="row justify-content-center">
+          <div class="mbr-white col-md-12 col-lg-9">
+            <h1
+              class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1"
+            >
+              <strong>PRICE CHART</strong>
+            </h1>
+            <p
+              class="
+                mbr-text
+                pb-4
+                mbr-white mbr-regular mbr-fonts-style
+                display-7
+              "
+            >
+              To follow the price of&nbsp;<strong
+                >ONE MILLION DOLLARS </strong
+              >you can use our partner's tools at DEX Tools, DEX Guru or just click the button below to quickly look-up the price in PooCoin.
+            </p>
+            <div class="mbr-section-btn">
+              <a
+                class="btn btn-sm btn-primary display-4"
+                href="https://poocoin.app/tokens/0x0000000000000000000000000000000000000000"
+                >PRICE CHART</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section
+      class="header3 solutionm4_header3 cid-sLUEkDgc67 mbr-parallax-background"
+      id="community"
+    >
+      <div
+        class="mbr-overlay"
+        style="opacity: 0.6; background-color: rgb(0, 0, 0)"
+      ></div>
+      <div class="container align-center">
+        <div class="row justify-content-center">
+          <div class="mbr-white col-md-12 col-lg-9">
+            <h1
+              class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1"
+            >
+              <strong>COMMUNITY</strong>
+            </h1>
+            <p
+              class="
+                mbr-text
+                pb-4
+                mbr-white mbr-regular mbr-fonts-style
+                display-7
+              "
+            >
+              With our unique ecosystem and gamification experience we are
+              building a strong community of like minded people who all have one
+              thing in common - The desire to <strong>win</strong> and become
+              rich!<br />
+            </p>
+            <div class="row">
+            <div class="mbr-section-btn col-lg-6">
+              <a
+                class="btn btn-sm btn-primary display-4"
+                href="https://t.me/stickmancrypto"
+                ><span
+                  class="
+                    mobi-mbri mobi-mbri-paper-plane
+                    mbr-iconfont mbr-iconfont-btn
+                  "
+                ></span
+                >JOIN OUR TELEGRAM</a
+              >
+            </div>
+            <div class="mbr-section-btn col-lg-6">
+              <a
+                class="btn btn-sm btn-primary display-4"
+                href="http://twitter.com/usgpiggybank"
+                ><span
+                class="
+                    mobi-mbri socicon-twitter socicon
+                    mbr-iconfont mbr-iconfont-btn"
+                >
+                </span
+                >JOIN OUR TWITTER</a
+              >
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-/**
- * @dev Wrappers over Solidity's arithmetic operations with added overflow
- * checks.
- *
- * Arithmetic operations in Solidity wrap on overflow. This can easily result
- * in bugs, because programmers usually assume that an overflow raises an
- * error, which is the standard behavior in high level programming languages.
- * `SafeMath` restores this intuition by reverting the transaction when an
- * operation overflows.
- *
- * Using this library instead of the unchecked operations eliminates an entire
- * class of bugs, so it's recommended to use it always.
- */
- 
-library SafeMath {
-    /**
-     * @dev Returns the addition of two unsigned integers, reverting on
-     * overflow.
-     *
-     * Counterpart to Solidity's `+` operator.
-     *
-     * Requirements:
-     *
-     * - Addition cannot overflow.
-     */
-    function add(uint256 a, uint256 b) internal pure returns (uint256) {
-        uint256 c = a + b;
-        require(c >= a, "SafeMath: addition overflow");
+    <section
+      class="header3 solutionm4_header3 cid-sLUBM3smel mbr-parallax-background"
+      id="header3-2"
+    >
+      <div
+        class="mbr-overlay"
+        style="opacity: 0.6; background-color: rgb(0, 0, 0)"
+      ></div>
+      <div class="container align-center">
+        <div class="row justify-content-center">
+          <div class="mbr-white col-md-12 col-lg-9">
+            <h1
+              class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1"
+            >
+              <strong>FRONT MAN</strong>
+            </h1>
+            <p
+              class="
+                mbr-text
+                pb-4
+                mbr-white mbr-regular mbr-fonts-style
+                display-7
+              "
+            >
+              More about ONE MILLION DOLLAR TOKEN creator.<br /><br />When I became a millionaire from SHIBA INU token and fulfilled my dream, I realized how important is to make peoples
+              rich. "Every time you don't know what to do, help someone be more than you." - AG
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        return c;
-    }
+    <section class="extPricingTables cid-sMiLexNDz8" id="roadmap">
+      <div
+        class="mbr-overlay"
+        style="opacity: 0.6; background-color: rgb(25, 25, 25)"
+      ></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="table col-md-6 col-lg-3 first-row-table">
+            <div class="table-wrapper">
+              <div class="table-head-wrapper mbr-white">
+                <span
+                  class="
+                    table-heading
+                    mbr-section-title mbr-fonts-style mbr-bold
+                    display-7
+                  "
+                  >PHASE 1</span
+                >
+                <div class="table-purchase">
+                  <span class="pricing-value mbr-fonts-style display-7"
+                    >Foundation &amp; Launch</span
+                  >
+                  <h3
+                    class="
+                      mbr-text
+                      table-pricing
+                      mbr-fonts-style mbr-lighter
+                      display-4
+                    "
+                  >
+                    Q3 2021
+                  </h3>
+                </div>
+              </div>
+              <ul class="list-group mbr-fonts-style mbr-lighter display-4">
+                <li>
+                  <span class="items-text">
+                    Concept idea and hiring of the development team.</span
+                  >
+                </li>
+                <li>
+                  Test, audit and deploy the smart contract.
+                </li>
+                <li>
+                  <span class="items-text">
+                    Private presale to raise capital to launch the project
+                    successfully.</span
+                  >
+                </li>
+                <li>
+                  <strong>Initial website</strong> (To be kept updated on a
+                  weekly basis) and community channels all launched.
+                </li>
+              </ul>
+            </div>
+          </div>
 
-    /**
-     * @dev Returns the subtraction of two unsigned integers, reverting on
-     * overflow (when the result is negative).
-     *
-     * Counterpart to Solidity's `-` operator.
-     *
-     * Requirements:
-     *
-     * - Subtraction cannot overflow.
-     */
-    function sub(uint256 a, uint256 b) internal pure returns (uint256) {
-        return sub(a, b, "SafeMath: subtraction overflow");
-    }
+          <div class="table col-md-6 col-lg-3 first-row-table">
+            <div class="table-wrapper">
+              <div class="table-head-wrapper mbr-white">
+                <span
+                  class="
+                    table-heading
+                    mbr-section-title mbr-fonts-style mbr-bold
+                    display-7
+                  "
+                >
+                  PHASE 2</span
+                >
+                <div class="table-purchase">
+                  <span class="pricing-value mbr-fonts-style display-7"
+                    >Crypto Network Advertising</span
+                  >
+                  <h3
+                    class="
+                      mbr-text
+                      table-pricing
+                      mbr-fonts-style mbr-lighter
+                      display-4
+                    "
+                  >
+                    Q4 2021
+                  </h3>
+                </div>
+              </div>
+              <ul class="list-group mbr-fonts-style mbr-lighter display-4">
+                <li>
+                  Adverts to run across popular BSC advertising networks
+                  (<strong>Poocoin</strong> &amp; Dex)
+                </li>
+                <li>
+                  <span class="items-text"
+                    ><strong> CoinMarketCap</strong> listing to track live price
+                    of OMD easily across all channels.</span
+                  >
+                </li>
+                <li>
+                  <span class="items-text"
+                    ><strong> Coingecko</strong> listing for easy market
+                    monitoring.</span
+                  >
+                </li>
+                <li>
+                  <span class="items-text">
+                    Find famous influencer who make livestream with OMD GivaAway in youtube.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
 
-    /**
-     * @dev Returns the subtraction of two unsigned integers, reverting with custom message on
-     * overflow (when the result is negative).
-     *
-     * Counterpart to Solidity's `-` operator.
-     *
-     * Requirements:
-     *
-     * - Subtraction cannot overflow.
-     */
-    function sub(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
-        require(b <= a, errorMessage);
-        uint256 c = a - b;
+          <div class="table col-md-6 col-lg-3">
+            <div class="table-wrapper">
+              <div class="table-head-wrapper mbr-white">
+                <span
+                  class="
+                    table-heading
+                    mbr-section-title mbr-fonts-style mbr-bold
+                    display-7
+                  "
+                >
+                  PHASE 3</span
+                >
+                <div class="table-purchase">
+                  <span class="pricing-value mbr-fonts-style display-7"
+                    >Exchanges &amp; Application</span
+                  >
+                  <h3
+                    class="
+                      mbr-text
+                      table-pricing
+                      mbr-fonts-style mbr-lighter
+                      display-4
+                    "
+                  >
+                    Q1 2022
+                  </h3>
+                </div>
+              </div>
+              <ul class="list-group mbr-fonts-style mbr-lighter display-4">
+                <li>
+                  In depth <strong>long term partnerships</strong> with
+                  influencers on Youtube, Twitter, &amp; Tiktok.
+                </li>
+                <li>
+                  Secondary audit to be conducted by <strong>Certik</strong>.
+                </li>
+                <li>
+                  <span class="items-text"
+                    ><strong> Binance</strong> listing most
+                    popular crypto exchanges).</span
+                  >
+                </li>
+                <li>
+                  <span class="items-text">
+                    Initial game beta&nbsp;<strong>application launched</strong>
+                    for android users with iOS coming shortly after (circa 2
+                    weeks).</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
 
-        return c;
-    }
+          <div class="table col-md-6 col-lg-3 last-table">
+            <div class="table-wrapper">
+              <div class="table-head-wrapper mbr-white">
+                <span
+                  class="
+                    table-heading
+                    mbr-section-title mbr-fonts-style mbr-bold
+                    display-7
+                  "
+                >
+                  PHASE 4</span
+                >
+                <div class="table-purchase">
+                  <span class="pricing-value mbr-fonts-style display-7"
+                    >Milestones &amp; The Future Plan</span
+                  >
+                  <h3
+                    class="
+                      mbr-text
+                      table-pricing
+                      mbr-fonts-style mbr-lighter
+                      display-4
+                    "
+                  >
+                    Q2 2022
+                  </h3>
+                </div>
+              </div>
+              <ul class="list-group mbr-fonts-style mbr-lighter display-4">
+                <li>
+                  <strong>Yield farming</strong> platform with a strong and
+                  sustained APY for OMD holders.&nbsp;
+                </li>
+                <li>
+                  Successfully reach 100k holders with a
+                  <strong>$100M market cap.</strong>
+                </li>
+                <li>
+                  Global marketing campaign with our
+                  <strong>Front Man</strong>&nbsp;with mass online and offline
+                  coverage (billboards).
+                </li>
+                <li>
+                  Gamification brought to the tokens functionality with our
+                  application. Users will be able to win prizes of up to
+                  <strong>$1,000,000</strong> each month!
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    /**
-     * @dev Returns the multiplication of two unsigned integers, reverting on
-     * overflow.
-     *
-     * Counterpart to Solidity's `*` operator.
-     *
-     * Requirements:
-     *
-     * - Multiplication cannot overflow.
-     */
-    function mul(uint256 a, uint256 b) internal pure returns (uint256) {
-        // Gas optimization: this is cheaper than requiring 'a' not being zero, but the
-        // benefit is lost if 'b' is also tested.
-        // See: https://github.com/OpenZeppelin/openzeppelin-contracts/pull/522
-        if (a == 0) {
-            return 0;
+    <section class="team1 solutionm4_team1 cid-sMiIvL0ySg" id="team1-8">
+      <div class="container-fluid mbr-white">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-10 pb-5">
+            <h5
+              class="
+                main-subtitle
+                align-center
+                mbr-regular mbr-black mbr-fonts-style
+                display-1
+              "
+            >
+              How to...
+            </h5>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper align-center">
+              <div class="img-wrapper">
+                <img
+                  src="assets/images/buy.webp"
+                  alt=""
+                />
+              </div>
+              <div class="card-box">
+                <h3 class="mbr-subtitle mbr-semibold mbr-fonts-style display-5">
+                  BUY
+                </h3>
+                <h4
+                  class="
+                    card-title
+                    mbr-regular mbr-black mbr-fonts-style
+                    display-4
+                  "
+                >
+                  Text here........
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper align-center">
+              <div class="img-wrapper">
+                <img
+                  src="assets/images/subscribe.webp"
+                  alt=""
+                />
+              </div>
+              <div class="card-box">
+                <h3 class="mbr-subtitle mbr-semibold mbr-fonts-style display-5">
+                  SUBSCRIBE
+                </h3>
+                <h4
+                  class="
+                    card-title
+                    mbr-regular mbr-black mbr-fonts-style
+                    display-4
+                  "
+                >
+                Text here........
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper align-center">
+              <div class="img-wrapper">
+                <img
+                  src="assets/images/hold.webp"
+                  alt=""
+                />
+              </div>
+              <div class="card-box">
+                <h3 class="mbr-subtitle mbr-semibold mbr-fonts-style display-5">
+                  HOLD
+                </h3>
+                <h4
+                  class="
+                    card-title
+                    mbr-regular mbr-black mbr-fonts-style
+                    display-4
+                  "
+                >
+                Text here........
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper align-center">
+              <div class="img-wrapper">
+                <img src="assets/images/share.webp" alt="" />
+              </div>
+              <div class="card-box">
+                <h3 class="mbr-subtitle mbr-semibold mbr-fonts-style display-5">
+                  SHARE
+                </h3>
+                <h4
+                  class="
+                    card-title
+                    mbr-regular mbr-black mbr-fonts-style
+                    display-4
+                  "
+                >
+                Text here........
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper align-center">
+              <div class="img-wrapper">
+                <img src="assets/images/win.webp" alt="" />
+              </div>
+              <div class="card-box">
+                <h3 class="mbr-subtitle mbr-semibold mbr-fonts-style display-5">
+                  WIN
+                </h3>
+                <h4
+                  class="
+                    card-title
+                    mbr-regular mbr-black mbr-fonts-style
+                    display-4
+                  "
+                >
+                Text here........
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="clients1 solutionm4_clients1 cid-sMoXkq2QWU"
+      id="clients1-c"
+    >
+      <!-- Block parameters controls (Blue "Gear" panel) -->
+
+      <!-- End block parameters -->
+      <div class="container images-container">
+        <div class="row justify-content-center">
+          <div class="col-md-12"></div>
+          <div class="col-md-3 card">
+            <img src="assets/images/cmc-2-240x44.png" alt="" />
+          </div>
+          <div class="col-md-3 card">
+            <img
+              src="assets/images/coingecko-branding-guide-4f5245361f7a47478fa54c2c57808a9e05d31ac7ca498ab189a3827d6000e22b-240x64.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-3 card">
+            <img src="assets/images/bscscan-logo-240x61.png" alt="" />
+          </div>
+          <div class="col-md-3 card">
+            <img src="assets/images/bithumb-logo-240x59.png" alt="" />
+          </div>
+          <!-- <div class="col-md-3 card">
+            <img
+              src="assets/images/580b57fcd9996e24bc43c529-1-240x135.png"
+              alt=""
+            />
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="footer2 cid-s1YMdWQfw7" once="footers" id="footer2-7">
+      <div class="container">
+        <div class="row align-left">
+          <div class="col-md-6 col-lg-3">
+            <h3
+              class="title pb-2 align-left mbr-bold mbr-fonts-style display-5"
+            >
+              ONE MILLION DOLLARS TOKEN
+            </h3>
+            <p
+              class="
+                mbr-text
+                align-left
+                mbr-white mbr-regular mbr-fonts-style
+                display-7
+              "
+            >
+              "Credits."<br />
+            </p>
+            <div class="socicon-wrap">
+              <a href="http://twitter.com/usgpiggybank"
+                ><span class="mbr-iconfont socicon-twitter socicon"></span
+              ></a>
+              <a href="https://t.me/stickmancrypto"
+                ><span class="mbr-iconfont socicon-telegram socicon"></span
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="align-wrap">
+              <div class="item-wrap">
+                <div class="icons-wrap pb-2">
+                  <p class="icon-title mbr-regular mbr-fonts-style display-4">
+                    <a href="index.html#presell" class="text-primary"
+                      >Presell</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="item-wrap">
+                <div class="icons-wrap pb-2">
+                  <p class="icon-title mbr-regular mbr-fonts-style display-4">
+                    <a href="index.html#tocenomic" class="text-primary"
+                      >Tokenomics</a
+                    ><br />
+                  </p>
+                </div>
+              </div>
+              <div class="item-wrap">
+                <div class="icons-wrap pb-2">
+                  <p class="icon-title mbr-regular mbr-fonts-style display-4">
+                    <a href="index.html#thegame" class="text-primary"
+                      >The Game</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="item-wrap">
+                <div class="icons-wrap pb-2">
+                  <p class="icon-title mbr-regular mbr-fonts-style display-4">
+                    <a
+                      href="https://poocoin.app/tokens/0x0000000000000000000000000000000000000000"
+                      class="text-primary"
+                      >Price Chart</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="item-wrap">
+                <div class="icons-wrap pb-2">
+                  <p class="icon-title mbr-regular mbr-fonts-style display-4">
+                    <a
+                      href="index.html#roadmap"
+                      class="text-primary"
+                      >Roadmap</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="align-wrap">
+              <div class="item-wrap">
+                <div class="icons-wrap pb-2">
+                  </p>
+                </div>
+              </div>
+              <div class="item-wrap">
+                <div class="icons-wrap pb-2">
+                  <p class="icon-title mbr-regular mbr-fonts-style display-4">
+                    <a
+                      href="https://bscscan.com/token/0x0000000000000000000000000000000000000000#balances"
+                      class="text-primary"
+                      >Holders</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="item-wrap">
+                <div class="icons-wrap pb-2">
+                  <p class="icon-title mbr-regular mbr-fonts-style display-4">
+                    <a
+                      href="https://bscscan.com/address/0x0000000000000000000000000000000000000000"
+                      class="text-primary"
+                      >BSC Scan</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 align-center col-lg-3">
+            <div class="list-items pb-4">
+              <div class="item mbr-flex">
+                <span class="item-icon mobi-mbri-letter mobi-mbri"></span>
+                <p
+                  class="
+                    item-text
+                    mbr-regular mbr-white mbr-fonts-style
+                    display-4
+                  "
+                >
+                  info@omdt.digital
+                </p>
+              </div>
+            </div>
+            <div class="mbr-section-btn">
+              <a
+                class="btn btn-sm btn-primary display-4"
+                href="https://pancakeswap.finance/swap?inputCurrency=0x0000000000000000000000000000000000000000"
+                ><span
+                  class="mobi-mbri mobi-mbri-cash mbr-iconfont mbr-iconfont-btn"
+                ></span
+                >BUY $OMD</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/web/assets/jquery/jquery.min.js"></script>
+    <script src="assets/timeleft/timeleft.js"></script>
+    <script src="assets/popper/popper.min.js"></script>
+    <script src="assets/tether/tether.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="assets/dropdown/js/nav-dropdown.js"></script>
+    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+    <script src="assets/parallax/jarallax.min.js"></script>
+    <script src="assets/as-pie-progress/jquery-as-pie-progress.min.js"></script>
+    <script src="assets/theme/js/script.js"></script>
+    <script src="assets/preSale/preSaleOne.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1-rc.2/web3.min.js" integrity="sha512-KURAVUCRxZKDemghhiNqTnYzVPUtO3GYznBZRWRBT2GJJ5PmePAxfO7QMGCM8xUJ0QfrUYJDrtRJM4L4NOtfow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Nov 15, 2021 15:37:25").getTime();
+      
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+      
+        // Get today's date and time
+        var now = new Date().getTime();
+      
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+      
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+        // Display the result in the element with id="demo"
+        document.getElementById("timeleft").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("timeleft").innerHTML = "EXPIRED";
         }
+      }, 1000);
+      </script>
+  </body>
+</html>
 
-        uint256 c = a * b;
-        require(c / a == b, "SafeMath: multiplication overflow");
-
-        return c;
-    }
-
-    /**
-     * @dev Returns the integer division of two unsigned integers. Reverts on
-     * division by zero. The result is rounded towards zero.
-     *
-     * Counterpart to Solidity's `/` operator. Note: this function uses a
-     * `revert` opcode (which leaves remaining gas untouched) while Solidity
-     * uses an invalid opcode to revert (consuming all remaining gas).
-     *
-     * Requirements:
-     *
-     * - The divisor cannot be zero.
-     */
-    function div(uint256 a, uint256 b) internal pure returns (uint256) {
-        return div(a, b, "SafeMath: division by zero");
-    }
-
-    /**
-     * @dev Returns the integer division of two unsigned integers. Reverts with custom message on
-     * division by zero. The result is rounded towards zero.
-     *
-     * Counterpart to Solidity's `/` operator. Note: this function uses a
-     * `revert` opcode (which leaves remaining gas untouched) while Solidity
-     * uses an invalid opcode to revert (consuming all remaining gas).
-     *
-     * Requirements:
-     *
-     * - The divisor cannot be zero.
-     */
-    function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
-        require(b > 0, errorMessage);
-        uint256 c = a / b;
-        // assert(a == b * c + a % b); // There is no case in which this doesn't hold
-
-        return c;
-    }
-
-    /**
-     * @dev Returns the remainder of dividing two unsigned integers. (unsigned integer modulo),
-     * Reverts when dividing by zero.
-     *
-     * Counterpart to Solidity's `%` operator. This function uses a `revert`
-     * opcode (which leaves remaining gas untouched) while Solidity uses an
-     * invalid opcode to revert (consuming all remaining gas).
-     *
-     * Requirements:
-     *
-     * - The divisor cannot be zero.
-     */
-    function mod(uint256 a, uint256 b) internal pure returns (uint256) {
-        return mod(a, b, "SafeMath: modulo by zero");
-    }
-
-    /**
-     * @dev Returns the remainder of dividing two unsigned integers. (unsigned integer modulo),
-     * Reverts with custom message when dividing by zero.
-     *
-     * Counterpart to Solidity's `%` operator. This function uses a `revert`
-     * opcode (which leaves remaining gas untouched) while Solidity uses an
-     * invalid opcode to revert (consuming all remaining gas).
-     *
-     * Requirements:
-     *
-     * - The divisor cannot be zero.
-     */
-    function mod(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
-        require(b != 0, errorMessage);
-        return a % b;
-    }
-}
-
-abstract contract Context {
-    function _msgSender() internal view virtual returns (address payable) {
-    return payable(msg.sender); // added payable
-
-    }
-
-    function _msgData() internal view virtual returns (bytes memory) {
-        this; // silence state mutability warning without generating bytecode - see https://github.com/ethereum/solidity/issues/2691
-        return msg.data;
-    }
-}
-
-
-/**
- * @dev Collection of functions related to the address type
- */
-library Address {
-    /**
-     * @dev Returns true if `account` is a contract.
-     *
-     * [IMPORTANT]
-     * ====
-     * It is unsafe to assume that an address for which this function returns
-     * false is an externally-owned account (EOA) and not a contract.
-     *
-     * Among others, `isContract` will return false for the following
-     * types of addresses:
-     *
-     *  - an externally-owned account
-     *  - a contract in construction
-     *  - an address where a contract will be created
-     *  - an address where a contract lived, but was destroyed
-     * ====
-     */
-    function isContract(address account) internal view returns (bool) {
-        // According to EIP-1052, 0x0 is the value returned for not-yet created accounts
-        // and 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470 is returned
-        // for accounts without code, i.e. `keccak256('')`
-        bytes32 codehash;
-        bytes32 accountHash = 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470;
-        // solhint-disable-next-line no-inline-assembly
-        assembly { codehash := extcodehash(account) }
-        return (codehash != accountHash && codehash != 0x0);
-    }
-
-    /**
-     * @dev Replacement for Solidity's `transfer`: sends `amount` wei to
-     * `recipient`, forwarding all available gas and reverting on errors.
-     *
-     * https://eips.ethereum.org/EIPS/eip-1884[EIP1884] increases the gas cost
-     * of certain opcodes, possibly making contracts go over the 2300 gas limit
-     * imposed by `transfer`, making them unable to receive funds via
-     * `transfer`. {sendValue} removes this limitation.
-     *
-     * https://diligence.consensys.net/posts/2019/09/stop-using-soliditys-transfer-now/[Learn more].
-     *
-     * IMPORTANT: because control is transferred to `recipient`, care must be
-     * taken to not create reentrancy vulnerabilities. Consider using
-     * {ReentrancyGuard} or the
-     * https://solidity.readthedocs.io/en/v0.5.11/security-considerations.html#use-the-checks-effects-interactions-pattern[checks-effects-interactions pattern].
-     */
-    function sendValue(address payable recipient, uint256 amount) internal {
-        require(address(this).balance >= amount, "Address: insufficient balance");
-
-        // solhint-disable-next-line avoid-low-level-calls, avoid-call-value
-        (bool success, ) = recipient.call{ value: amount }("");
-        require(success, "Address: unable to send value, recipient may have reverted");
-    }
-
-    /**
-     * @dev Performs a Solidity function call using a low level `call`. A
-     * plain`call` is an unsafe replacement for a function call: use this
-     * function instead.
-     *
-     * If `target` reverts with a revert reason, it is bubbled up by this
-     * function (like regular Solidity function calls).
-     *
-     * Returns the raw returned data. To convert to the expected return value,
-     * use https://solidity.readthedocs.io/en/latest/units-and-global-variables.html?highlight=abi.decode#abi-encoding-and-decoding-functions[`abi.decode`].
-     *
-     * Requirements:
-     *
-     * - `target` must be a contract.
-     * - calling `target` with `data` must not revert.
-     *
-     * _Available since v3.1._
-     */
-    function functionCall(address target, bytes memory data) internal returns (bytes memory) {
-      return functionCall(target, data, "Address: low-level call failed");
-    }
-
-    /**
-     * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`], but with
-     * `errorMessage` as a fallback revert reason when `target` reverts.
-     *
-     * _Available since v3.1._
-     */
-    function functionCall(address target, bytes memory data, string memory errorMessage) internal returns (bytes memory) {
-        return _functionCallWithValue(target, data, 0, errorMessage);
-    }
-
-    /**
-     * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`],
-     * but also transferring `value` wei to `target`.
-     *
-     * Requirements:
-     *
-     * - the calling contract must have an ETH balance of at least `value`.
-     * - the called Solidity function must be `payable`.
-     *
-     * _Available since v3.1._
-     */
-    function functionCallWithValue(address target, bytes memory data, uint256 value) internal returns (bytes memory) {
-        return functionCallWithValue(target, data, value, "Address: low-level call with value failed");
-    }
-
-    /**
-     * @dev Same as {xref-Address-functionCallWithValue-address-bytes-uint256-}[`functionCallWithValue`], but
-     * with `errorMessage` as a fallback revert reason when `target` reverts.
-     *
-     * _Available since v3.1._
-     */
-    function functionCallWithValue(address target, bytes memory data, uint256 value, string memory errorMessage) internal returns (bytes memory) {
-        require(address(this).balance >= value, "Address: insufficient balance for call");
-        return _functionCallWithValue(target, data, value, errorMessage);
-    }
-
-    function _functionCallWithValue(address target, bytes memory data, uint256 weiValue, string memory errorMessage) private returns (bytes memory) {
-        require(isContract(target), "Address: call to non-contract");
-
-        // solhint-disable-next-line avoid-low-level-calls
-        (bool success, bytes memory returndata) = target.call{ value: weiValue }(data);
-        if (success) {
-            return returndata;
-        } else {
-            // Look for revert reason and bubble it up if present
-            if (returndata.length > 0) {
-                // The easiest way to bubble the revert reason is using memory via assembly
-
-                // solhint-disable-next-line no-inline-assembly
-                assembly {
-                    let returndata_size := mload(returndata)
-                    revert(add(32, returndata), returndata_size)
-                }
-            } else {
-                revert(errorMessage);
-            }
-        }
-    }
-}
-
-/**
- * @dev Contract module which provides a basic access control mechanism, where
- * there is an account (an owner) that can be granted exclusive access to
- * specific functions.
- *
- * By default, the owner account will be the one that deploys the contract. This
- * can later be changed with {transferOwnership}.
- *
- * This module is used through inheritance. It will make available the modifier
- * `onlyOwner`, which can be applied to your functions to restrict their use to
- * the owner.
- */
-contract Ownable is Context {
-    address private _owner;
-    address private _previousOwner;
-
-    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
-
-    /**
-     * @dev Initializes the contract setting the deployer as the initial owner.
-     */
-    constructor () {
-        address msgSender = _msgSender();
-        _owner = msgSender;
-        emit OwnershipTransferred(address(0), msgSender);
-    }
-
-    /**
-     * @dev Returns the address of the current owner.
-     */
-    function owner() public view returns (address) {
-        return _owner;
-    }
-
-    /**
-     * @dev Throws if called by any account other than the owner.
-     */
-    modifier onlyOwner() {
-        require(_owner == _msgSender(), "Ownable: caller is not the owner");
-        _;
-    }
-
-     /**
-     * @dev Leaves the contract without owner. It will not be possible to call
-     * `onlyOwner` functions anymore. Can only be called by the current owner.
-     *
-     * NOTE: Renouncing ownership will leave the contract without an owner,
-     * thereby removing any functionality that is only available to the owner.
-     */
-    function renounceOwnership() public virtual onlyOwner {
-        emit OwnershipTransferred(_owner, address(0));
-        _owner = address(0);
-    }
-
-    /**
-     * @dev Transfers ownership of the contract to a new account (`newOwner`).
-     * Can only be called by the current owner.
-     */
-    function transferOwnership(address newOwner) public virtual onlyOwner {
-        require(newOwner != address(0), "Ownable: new owner is the zero address");
-        emit OwnershipTransferred(_owner, newOwner);
-        _owner = newOwner;
-    }
-}
-
-// pragma solidity >=0.5.0;
-
-interface IUniswapV2Factory {
-    event PairCreated(address indexed token0, address indexed token1, address pair, uint);
-
-    function feeTo() external view returns (address);
-    function feeToSetter() external view returns (address);
-
-    function getPair(address tokenA, address tokenB) external view returns (address pair);
-    function allPairs(uint) external view returns (address pair);
-    function allPairsLength() external view returns (uint);
-
-    function createPair(address tokenA, address tokenB) external returns (address pair);
-
-    function setFeeTo(address) external;
-    function setFeeToSetter(address) external;
-}
-
-
-// pragma solidity >=0.5.0;
-
-interface IUniswapV2Pair {
-    event Approval(address indexed owner, address indexed spender, uint value);
-    event Transfer(address indexed from, address indexed to, uint value);
-
-    function name() external pure returns (string memory);
-    function symbol() external pure returns (string memory);
-    function decimals() external pure returns (uint8);
-    function totalSupply() external view returns (uint);
-    function balanceOf(address owner) external view returns (uint);
-    function allowance(address owner, address spender) external view returns (uint);
-
-    function approve(address spender, uint value) external returns (bool);
-    function transfer(address to, uint value) external returns (bool);
-    function transferFrom(address from, address to, uint value) external returns (bool);
-
-    function DOMAIN_SEPARATOR() external view returns (bytes32);
-    function PERMIT_TYPEHASH() external pure returns (bytes32);
-    function nonces(address owner) external view returns (uint);
-
-    function permit(address owner, address spender, uint value, uint deadline, uint8 v, bytes32 r, bytes32 s) external;
-
-    event Mint(address indexed sender, uint amount0, uint amount1);
-    event Burn(address indexed sender, uint amount0, uint amount1, address indexed to);
-    event Swap(
-        address indexed sender,
-        uint amount0In,
-        uint amount1In,
-        uint amount0Out,
-        uint amount1Out,
-        address indexed to
-    );
-    event Sync(uint112 reserve0, uint112 reserve1);
-
-    function MINIMUM_LIQUIDITY() external pure returns (uint);
-    function factory() external view returns (address);
-    function token0() external view returns (address);
-    function token1() external view returns (address);
-    function getReserves() external view returns (uint112 reserve0, uint112 reserve1, uint32 blockTimestampLast);
-    function price0CumulativeLast() external view returns (uint);
-    function price1CumulativeLast() external view returns (uint);
-    function kLast() external view returns (uint);
-
-    function mint(address to) external returns (uint liquidity);
-    function burn(address to) external returns (uint amount0, uint amount1);
-    function swap(uint amount0Out, uint amount1Out, address to, bytes calldata data) external;
-    function skim(address to) external;
-    function sync() external;
-
-    function initialize(address, address) external;
-}
-
-// pragma solidity >=0.6.2;
-
-interface IUniswapV2Router01 {
-    function factory() external pure returns (address);
-    function WETH() external pure returns (address);
-
-    function addLiquidity(
-        address tokenA,
-        address tokenB,
-        uint amountADesired,
-        uint amountBDesired,
-        uint amountAMin,
-        uint amountBMin,
-        address to,
-        uint deadline
-    ) external returns (uint amountA, uint amountB, uint liquidity);
-    function addLiquidityETH(
-        address token,
-        uint amountTokenDesired,
-        uint amountTokenMin,
-        uint amountETHMin,
-        address to,
-        uint deadline
-    ) external payable returns (uint amountToken, uint amountETH, uint liquidity);
-    function removeLiquidity(
-        address tokenA,
-        address tokenB,
-        uint liquidity,
-        uint amountAMin,
-        uint amountBMin,
-        address to,
-        uint deadline
-    ) external returns (uint amountA, uint amountB);
-    function removeLiquidityETH(
-        address token,
-        uint liquidity,
-        uint amountTokenMin,
-        uint amountETHMin,
-        address to,
-        uint deadline
-    ) external returns (uint amountToken, uint amountETH);
-    function removeLiquidityWithPermit(
-        address tokenA,
-        address tokenB,
-        uint liquidity,
-        uint amountAMin,
-        uint amountBMin,
-        address to,
-        uint deadline,
-        bool approveMax, uint8 v, bytes32 r, bytes32 s
-    ) external returns (uint amountA, uint amountB);
-    function removeLiquidityETHWithPermit(
-        address token,
-        uint liquidity,
-        uint amountTokenMin,
-        uint amountETHMin,
-        address to,
-        uint deadline,
-        bool approveMax, uint8 v, bytes32 r, bytes32 s
-    ) external returns (uint amountToken, uint amountETH);
-    function swapExactTokensForTokens(
-        uint amountIn,
-        uint amountOutMin,
-        address[] calldata path,
-        address to,
-        uint deadline
-    ) external returns (uint[] memory amounts);
-    function swapTokensForExactTokens(
-        uint amountOut,
-        uint amountInMax,
-        address[] calldata path,
-        address to,
-        uint deadline
-    ) external returns (uint[] memory amounts);
-    function swapExactETHForTokens(uint amountOutMin, address[] calldata path, address to, uint deadline)
-        external
-        payable
-        returns (uint[] memory amounts);
-    function swapTokensForExactETH(uint amountOut, uint amountInMax, address[] calldata path, address to, uint deadline)
-        external
-        returns (uint[] memory amounts);
-    function swapExactTokensForETH(uint amountIn, uint amountOutMin, address[] calldata path, address to, uint deadline)
-        external
-        returns (uint[] memory amounts);
-    function swapETHForExactTokens(uint amountOut, address[] calldata path, address to, uint deadline)
-        external
-        payable
-        returns (uint[] memory amounts);
-
-    function quote(uint amountA, uint reserveA, uint reserveB) external pure returns (uint amountB);
-    function getAmountOut(uint amountIn, uint reserveIn, uint reserveOut) external pure returns (uint amountOut);
-    function getAmountIn(uint amountOut, uint reserveIn, uint reserveOut) external pure returns (uint amountIn);
-    function getAmountsOut(uint amountIn, address[] calldata path) external view returns (uint[] memory amounts);
-    function getAmountsIn(uint amountOut, address[] calldata path) external view returns (uint[] memory amounts);
-}
-
-
-
-// pragma solidity >=0.6.2;
-
-interface IUniswapV2Router02 is IUniswapV2Router01 {
-    function removeLiquidityETHSupportingFeeOnTransferTokens(
-        address token,
-        uint liquidity,
-        uint amountTokenMin,
-        uint amountETHMin,
-        address to,
-        uint deadline
-    ) external returns (uint amountETH);
-    function removeLiquidityETHWithPermitSupportingFeeOnTransferTokens(
-        address token,
-        uint liquidity,
-        uint amountTokenMin,
-        uint amountETHMin,
-        address to,
-        uint deadline,
-        bool approveMax, uint8 v, bytes32 r, bytes32 s
-    ) external returns (uint amountETH);
-
-    function swapExactTokensForTokensSupportingFeeOnTransferTokens(
-        uint amountIn,
-        uint amountOutMin,
-        address[] calldata path,
-        address to,
-        uint deadline
-    ) external;
-    function swapExactETHForTokensSupportingFeeOnTransferTokens(
-        uint amountOutMin,
-        address[] calldata path,
-        address to,
-        uint deadline
-    ) external payable;
-    function swapExactTokensForETHSupportingFeeOnTransferTokens(
-        uint amountIn,
-        uint amountOutMin,
-        address[] calldata path,
-        address to,
-        uint deadline
-    ) external;
-}
-
-
-contract GGE is Context, IERC20, Ownable {
-    using SafeMath for uint256;
-    using Address for address;
-
-    mapping (address => uint256) private _rOwned;
-    mapping (address => uint256) private _tOwned;
-    mapping (address => mapping (address => uint256)) private _allowances;
-
-    mapping (address => bool) private _isExcludedFromFee;
-
-    mapping (address => bool) private _isExcluded;
-    address[] private _excluded;
-   
-    uint256 private constant MAX = ~uint256(0);
-    uint256 private _tTotal = 100000000000 * 10**6 * 10**9;
-    uint256 private _rTotal = (MAX - (MAX % _tTotal));
-    uint256 private _tFeeTotal;
-
-    string private _name = "***";
-    string private _symbol = "***";
-    uint8 private _decimals = 9;
-
-    address private _charityWalletAddress = ***;
-    
-    uint256 public _taxFee = 2;
-    uint256 private _previousTaxFee = _taxFee;
-    
-    uint256 public _liquidityFee = 2;
-    uint256 private _previousLiquidityFee = _liquidityFee;
-
-    uint256 public _charityFee = 1;
-    uint256 private _previousCharityFee = _charityFee;
-
-    IUniswapV2Router02 public immutable uniswapV2Router;
-    address public immutable uniswapV2Pair;
-    
-    bool inSwapAndLiquify;
-    bool public swapAndLiquifyEnabled = true;
-    
-    uint256 public _maxTxAmount = 500000000 * 10**6 * 10**9;
-    uint256 private numTokensSellToAddToLiquidity = 50000000 * 10**6 * 10**9;
-    
-    event MinTokensBeforeSwapUpdated(uint256 minTokensBeforeSwap);
-    event SwapAndLiquifyEnabledUpdated(bool enabled);
-    event SwapAndLiquify(
-        uint256 tokensSwapped,
-        uint256 ethReceived,
-        uint256 tokensIntoLiqudity
-    );
-    
-    constructor () {
-        _rOwned[_msgSender()] = _rTotal;
-        
-        IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);
-         // Create a uniswap pair for this new token
-        uniswapV2Pair = IUniswapV2Factory(_uniswapV2Router.factory())
-            .createPair(address(this), _uniswapV2Router.WETH());
-
-        // set the rest of the contract variables
-        uniswapV2Router = _uniswapV2Router;
-        
-        //exclude owner and this contract from fee
-        _isExcludedFromFee[owner()] = true;
-        _isExcludedFromFee[address(this)] = true;
-        
-        emit Transfer(address(0), _msgSender(), _tTotal);
-    }
-
-    function name() public view returns (string memory) {
-        return _name;
-    }
-
-    function symbol() public view returns (string memory) {
-        return _symbol;
-    }
-
-    function decimals() public view returns (uint8) {
-        return _decimals;
-    }
-
-    function totalSupply() public view override returns (uint256) {
-        return _tTotal;
-    }
-
-    function balanceOf(address account) public view override returns (uint256) {
-        if (_isExcluded[account]) return _tOwned[account];
-        return tokenFromReflection(_rOwned[account]);
-    }
-
-    function transfer(address recipient, uint256 amount) public override returns (bool) {
-        _transfer(_msgSender(), recipient, amount);
-        return true;
-    }
-
-    function allowance(address owner, address spender) public view override returns (uint256) {
-        return _allowances[owner][spender];
-    }
-
-    function approve(address spender, uint256 amount) public override returns (bool) {
-        _approve(_msgSender(), spender, amount);
-        return true;
-    }
-
-    function transferFrom(address sender, address recipient, uint256 amount) public override returns (bool) {
-        _transfer(sender, recipient, amount);
-        _approve(sender, _msgSender(), _allowances[sender][_msgSender()].sub(amount, "ERC20: transfer amount exceeds allowance"));
-        return true;
-    }
-
-    function increaseAllowance(address spender, uint256 addedValue) public virtual returns (bool) {
-        _approve(_msgSender(), spender, _allowances[_msgSender()][spender].add(addedValue));
-        return true;
-    }
-
-    function decreaseAllowance(address spender, uint256 subtractedValue) public virtual returns (bool) {
-        _approve(_msgSender(), spender, _allowances[_msgSender()][spender].sub(subtractedValue, "ERC20: decreased allowance below zero"));
-        return true;
-    }
-
-    function isExcludedFromReward(address account) public view returns (bool) {
-        return _isExcluded[account];
-    }
-
-    function totalFees() public view returns (uint256) {
-        return _tFeeTotal;
-    }
-
-    function deliver(uint256 tAmount) public {
-        address sender = _msgSender();
-        require(!_isExcluded[sender], "Excluded addresses cannot call this function");
-        (uint256 rAmount,,,,,,) = _getValues(tAmount);
-        _rOwned[sender] = _rOwned[sender].sub(rAmount);
-        _rTotal = _rTotal.sub(rAmount);
-        _tFeeTotal = _tFeeTotal.add(tAmount);
-    }
-
-    function reflectionFromToken(uint256 tAmount, bool deductTransferFee) public view returns(uint256) {
-        require(tAmount <= _tTotal, "Amount must be less than supply");
-        if (!deductTransferFee) {
-            (uint256 rAmount,,,,,,) = _getValues(tAmount);
-            return rAmount;
-        } else {
-            (,uint256 rTransferAmount,,,,,) = _getValues(tAmount);
-            return rTransferAmount;
-        }
-    }
-
-    function tokenFromReflection(uint256 rAmount) public view returns(uint256) {
-        require(rAmount <= _rTotal, "Amount must be less than total reflections");
-        uint256 currentRate =  _getRate();
-        return rAmount.div(currentRate);
-    }
-
-    function excludeFromReward(address account) public onlyOwner() {
-        // require(account != 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D, 'We can not exclude Uniswap router.');
-        require(!_isExcluded[account], "Account is already excluded");
-        if(_rOwned[account] > 0) {
-            _tOwned[account] = tokenFromReflection(_rOwned[account]);
-        }
-        _isExcluded[account] = true;
-        _excluded.push(account);
-    }
-
-    function includeInReward(address account) external onlyOwner() {
-        require(_isExcluded[account], "Account is already excluded");
-        for (uint256 i = 0; i < _excluded.length; i++) {
-            if (_excluded[i] == account) {
-                _excluded[i] = _excluded[_excluded.length - 1];
-                _tOwned[account] = 0;
-                _isExcluded[account] = false;
-                _excluded.pop();
-                break;
-            }
-        }
-    }
-        function _transferBothExcluded(address sender, address recipient, uint256 tAmount) private {
-        (uint256 rAmount, uint256 rTransferAmount, uint256 rFee, uint256 tTransferAmount, uint256 tFee, uint256 tLiquidity, uint256 tCharity) = _getValues(tAmount);
-        _tOwned[sender] = _tOwned[sender].sub(tAmount);
-        _rOwned[sender] = _rOwned[sender].sub(rAmount);
-        _tOwned[recipient] = _tOwned[recipient].add(tTransferAmount);
-        _rOwned[recipient] = _rOwned[recipient].add(rTransferAmount);        
-        _takeLiquidity(tLiquidity);
-        _takeCharity(tCharity);
-        _reflectFee(rFee, tFee);
-        emit Transfer(sender, recipient, tTransferAmount);
-    }
-    
-        function excludeFromFee(address account) public onlyOwner {
-        _isExcludedFromFee[account] = true;
-    }
-    
-    function includeInFee(address account) public onlyOwner {
-        _isExcludedFromFee[account] = false;
-    }
-    
-    function setTaxFeePercent(uint256 taxFee) external onlyOwner() {
-        _taxFee = taxFee;
-    }
-
-    function setCharityFeePercent(uint256 charityFee) external onlyOwner() {
-        _charityFee = charityFee;
-    }
-    
-    function setLiquidityFeePercent(uint256 liquidityFee) external onlyOwner() {
-        _liquidityFee = liquidityFee;
-    }
-   
-    function setMaxTxPercent(uint256 maxTxPercent) external onlyOwner() {
-        _maxTxAmount = _tTotal.mul(maxTxPercent).div(
-            10**2
-        );
-    }
-    
-    function setMaxTxAmount(uint256 maxTxAmount) external onlyOwner {
-        _maxTxAmount = maxTxAmount;
-    }
-
-    function setSwapAndLiquifyEnabled(bool _enabled) public onlyOwner {
-        swapAndLiquifyEnabled = _enabled;
-        emit SwapAndLiquifyEnabledUpdated(_enabled);
-    }
-    
-     //to recieve ETH from uniswapV2Router when swaping
-    receive() external payable {}
-
-    function _reflectFee(uint256 rFee, uint256 tFee) private {
-        _rTotal = _rTotal.sub(rFee);
-        _tFeeTotal = _tFeeTotal.add(tFee);
-    }
-
-    function _getValues(uint256 tAmount) private view returns (uint256, uint256, uint256, uint256, uint256, uint256, uint256) {
-        (uint256 tTransferAmount, uint256 tFee, uint256 tLiquidity, uint256 tCharity) = _getTValues(tAmount);
-        (uint256 rAmount, uint256 rTransferAmount, uint256 rFee) = _getRValues(tAmount, tFee, tLiquidity, tCharity, _getRate());
-        return (rAmount, rTransferAmount, rFee, tTransferAmount, tFee, tLiquidity, tCharity);
-    }
-    
-    function _getTValues(uint256 tAmount) private view returns (uint256, uint256, uint256, uint256) {
-        uint256 tFee = calculateTaxFee(tAmount);
-        uint256 tLiquidity = calculateLiquidityFee(tAmount);
-        uint256 tCharity = calculateCharityFee(tAmount);
-        uint256 tTransferAmount = tAmount.sub(tFee).sub(tLiquidity).sub(tCharity);
-        return (tTransferAmount, tFee, tLiquidity, tCharity);
-    }
-
-    function _getRValues(uint256 tAmount, uint256 tFee, uint256 tLiquidity, uint256 tCharity, uint256 currentRate) private pure returns (uint256, uint256, uint256) {
-        uint256 rAmount = tAmount.mul(currentRate);
-        uint256 rFee = tFee.mul(currentRate);
-        uint256 rLiquidity = tLiquidity.mul(currentRate);
-        uint256 rCharity = tCharity.mul(currentRate);
-        uint256 rTransferAmount = rAmount.sub(rFee).sub(rLiquidity).sub(rCharity);
-        return (rAmount, rTransferAmount, rFee);
-    }
-
-    function _getRate() private view returns(uint256) {
-        (uint256 rSupply, uint256 tSupply) = _getCurrentSupply();
-        return rSupply.div(tSupply);
-    }
-
-    function _getCurrentSupply() private view returns(uint256, uint256) {
-        uint256 rSupply = _rTotal;
-        uint256 tSupply = _tTotal;      
-        for (uint256 i = 0; i < _excluded.length; i++) {
-            if (_rOwned[_excluded[i]] > rSupply || _tOwned[_excluded[i]] > tSupply) return (_rTotal, _tTotal);
-            rSupply = rSupply.sub(_rOwned[_excluded[i]]);
-            tSupply = tSupply.sub(_tOwned[_excluded[i]]);
-        }
-        if (rSupply < _rTotal.div(_tTotal)) return (_rTotal, _tTotal);
-        return (rSupply, tSupply);
-    }
-    
-    function _takeLiquidity(uint256 tLiquidity) private {
-        uint256 currentRate =  _getRate();
-        uint256 rLiquidity = tLiquidity.mul(currentRate);
-        _rOwned[address(this)] = _rOwned[address(this)].add(rLiquidity);
-        if(_isExcluded[address(this)])
-            _tOwned[address(this)] = _tOwned[address(this)].add(tLiquidity);
-    }
-    
-    function _takeCharity(uint256 tCharity) private {
-        uint256 currentRate =  _getRate();
-        uint256 rCharity = tCharity.mul(currentRate);
-        _rOwned[_charityWalletAddress] = _rOwned[_charityWalletAddress].add(rCharity);
-        if(_isExcluded[_charityWalletAddress])
-            _tOwned[_charityWalletAddress] = _tOwned[_charityWalletAddress].add(tCharity);
-    }
-    
-    function _burn(address sender, uint256 tBurn) public {
-            
-        uint256 rBurn = tBurn.mul(_getRate());
-
-        _tTotal = _tTotal.sub(tBurn);
-        _rTotal = _rTotal.sub(rBurn);
-
-        _rOwned[sender] = _rOwned[sender].sub(rBurn);
-        if (_isExcluded[sender])
-             _tOwned[sender] = _tOwned[sender].sub(tBurn);
-
-        address burnAddress = address(0);
-        _rOwned[burnAddress] = _rOwned[burnAddress].add(rBurn);
-        if (_isExcluded[burnAddress])
-            _tOwned[burnAddress] = _tOwned[burnAddress].add(tBurn);    
-
-        emit Transfer(sender, burnAddress, tBurn);
-    }
-
-    function calculateTaxFee(uint256 _amount) private view returns (uint256) {
-        return _amount.mul(_taxFee).div(
-            10**2
-        );
-    }
-
-    function calculateLiquidityFee(uint256 _amount) private view returns (uint256) {
-        return _amount.mul(_liquidityFee).div(
-            10**2
-        );
-    }
-
-    function calculateCharityFee(uint256 _amount) private view returns (uint256) {
-        return _amount.mul(_charityFee).div(
-            10**1
-        );
-    }
-
-    
-    function removeAllFee() private {
-        if(_taxFee == 0 && _liquidityFee == 0) return;
-        
-        _previousTaxFee = _taxFee;
-        _previousLiquidityFee = _liquidityFee;
-        _previousCharityFee = _charityFee;
-        
-        _taxFee = 0;
-        _liquidityFee = 0;
-        _charityFee = 0;
-    }
-    
-    function restoreAllFee() private {
-        _taxFee = _previousTaxFee;
-        _liquidityFee = _previousLiquidityFee;
-        _charityFee = _previousCharityFee;
-    }
-    
-    function isExcludedFromFee(address account) public view returns(bool) {
-        return _isExcludedFromFee[account];
-    }
-
-    function _approve(address owner, address spender, uint256 amount) private {
-        require(owner != address(0), "ERC20: approve from the zero address");
-        require(spender != address(0), "ERC20: approve to the zero address");
-
-        _allowances[owner][spender] = amount;
-        emit Approval(owner, spender, amount);
-    }
-
-    function _transfer(
-        address from,
-        address to,
-        uint256 amount
-    ) private {
-        require(from != address(0), "ERC20: transfer from the zero address");
-        require(to != address(0), "ERC20: transfer to the zero address");
-        require(amount > 0, "Transfer amount must be greater than zero");
-        if(from != owner() && to != owner())
-            require(amount <= _maxTxAmount, "Transfer amount exceeds the maxTxAmount.");
-
-        // is the token balance of this contract address over the min number of
-        // tokens that we need to initiate a swap + liquidity lock?
-        // also, don't get caught in a circular liquidity event.
-        // also, don't swap & liquify if sender is uniswap pair.
-        uint256 contractTokenBalance = balanceOf(address(this));
-        
-        if(contractTokenBalance >= _maxTxAmount)
-        {
-            contractTokenBalance = _maxTxAmount;
-        }
-        
-        bool overMinTokenBalance = contractTokenBalance >= numTokensSellToAddToLiquidity;
-        if (
-            overMinTokenBalance &&
-            !inSwapAndLiquify &&
-            from != uniswapV2Pair &&
-            swapAndLiquifyEnabled
-        ) {
-            contractTokenBalance = numTokensSellToAddToLiquidity;
-            //add liquidity
-            swapAndLiquify(contractTokenBalance);
-        }
-        
-        //indicates if fee should be deducted from transfer
-        bool takeFee = true;
-        
-        //if any account belongs to _isExcludedFromFee account then remove the fee
-        if(_isExcludedFromFee[from] || _isExcludedFromFee[to]){
-            takeFee = false;
-        }
-        
-        //transfer amount, it will take tax, burn, liquidity fee
-        _tokenTransfer(from,to,amount,takeFee);
-    }
-        function swapAndLiquify(uint256 contractTokenBalance) public {
-        // split the contract balance into halves
-        uint256 half = contractTokenBalance.div(2);
-        uint256 otherHalf = contractTokenBalance.sub(half);
-
-        // capture the contract's current ETH balance.
-        // this is so that we can capture exactly the amount of ETH that the
-        // swap creates, and not make the liquidity event include any ETH that
-        // has been manually sent to the contract
-        uint256 initialBalance = address(this).balance;
-
-        // swap tokens for ETH
-        swapTokensForEth(half); // <- this breaks the ETH -> HATE swap when swap+liquify is triggered
-
-        // how much ETH did we just swap into?
-        uint256 newBalance = address(this).balance.sub(initialBalance);
-
-        // add liquidity to uniswap
-        addLiquidity(otherHalf, newBalance);
-        
-        emit SwapAndLiquify(half, newBalance, otherHalf);
-        
-    }
-
-    function swapTokensForEth(uint256 tokenAmount) private {
-        // generate the uniswap pair path of token -> weth
-        address[] memory path = new address[](2);
-        path[0] = address(this);
-        path[1] = uniswapV2Router.WETH();
-
-        _approve(address(this), address(uniswapV2Router), tokenAmount);
-
-        // make the swap
-        uniswapV2Router.swapExactTokensForETHSupportingFeeOnTransferTokens(
-            tokenAmount,
-            0, // accept any amount of ETH
-            path,
-            address(this),
-            block.timestamp
-        );
-    }
-
-    function addLiquidity(uint256 tokenAmount, uint256 ethAmount) private {
-        // approve token transfer to cover all possible scenarios
-        _approve(address(this), address(uniswapV2Router), tokenAmount);
-
-        // add the liquidity
-        uniswapV2Router.addLiquidityETH{value: ethAmount}(
-            address(this),
-            tokenAmount,
-            0, // slippage is unavoidable
-            0, // slippage is unavoidable
-            owner(),
-            block.timestamp
-        );
-    }
-
-    //this method is responsible for taking all fee, if takeFee is true
-    function _tokenTransfer(address sender, address recipient, uint256 amount,bool takeFee) private {
-        if(!takeFee)
-            removeAllFee();
-        
-        if (_isExcluded[sender] && !_isExcluded[recipient]) {
-            _transferFromExcluded(sender, recipient, amount);
-        } else if (!_isExcluded[sender] && _isExcluded[recipient]) {
-            _transferToExcluded(sender, recipient, amount);
-        } else if (!_isExcluded[sender] && !_isExcluded[recipient]) {
-            _transferStandard(sender, recipient, amount);
-        } else if (_isExcluded[sender] && _isExcluded[recipient]) {
-            _transferBothExcluded(sender, recipient, amount);
-        } else {
-            _transferStandard(sender, recipient, amount);
-        }
-        
-        if(!takeFee)
-            restoreAllFee();
-    }
-
-    function _transferStandard(address sender, address recipient, uint256 tAmount) private {
-        (uint256 rAmount, uint256 rTransferAmount, uint256 rFee, uint256 tTransferAmount, uint256 tFee, uint256 tLiquidity, uint256 tCharity) = _getValues(tAmount);
-        _rOwned[sender] = _rOwned[sender].sub(rAmount);
-        _rOwned[recipient] = _rOwned[recipient].add(rTransferAmount);
-        _takeLiquidity(tLiquidity);
-        _takeCharity(tCharity);
-        _reflectFee(rFee, tFee);
-        emit Transfer(sender, recipient, tTransferAmount);
-    }
-
-    function _transferToExcluded(address sender, address recipient, uint256 tAmount) private {
-        (uint256 rAmount, uint256 rTransferAmount, uint256 rFee, uint256 tTransferAmount, uint256 tFee, uint256 tLiquidity, uint256 tCharity) = _getValues(tAmount);
-        _rOwned[sender] = _rOwned[sender].sub(rAmount);
-        _tOwned[recipient] = _tOwned[recipient].add(tTransferAmount);
-        _rOwned[recipient] = _rOwned[recipient].add(rTransferAmount);           
-        _takeLiquidity(tLiquidity);
-        _takeCharity(tCharity);
-        _reflectFee(rFee, tFee);
-        emit Transfer(sender, recipient, tTransferAmount);
-    }
-
-    function _transferFromExcluded(address sender, address recipient, uint256 tAmount) private {
-        (uint256 rAmount, uint256 rTransferAmount, uint256 rFee, uint256 tTransferAmount, uint256 tFee, uint256 tLiquidity, uint256 tCharity) = _getValues(tAmount);
-        _tOwned[sender] = _tOwned[sender].sub(tAmount);
-        _rOwned[sender] = _rOwned[sender].sub(rAmount);
-        _rOwned[recipient] = _rOwned[recipient].add(rTransferAmount);   
-        _takeLiquidity(tLiquidity);
-        _takeCharity(tCharity);
-        _reflectFee(rFee, tFee);
-        emit Transfer(sender, recipient, tTransferAmount);
-    }
-
-
-    
